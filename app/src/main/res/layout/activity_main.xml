@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="12pt"
+        android:text="Kalkulator Aritmatika"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtAngka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:hint="Number 1"
+        android:background="@drawable/kalkulator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <EditText
+        android:id="@+id/txtAngka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="30dp"
+        android:background="@drawable/kalkulator"
+        android:gravity="center"
+        android:hint="Number 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/btnPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="+"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnMines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="231dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:text="-"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="*"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="231dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="/"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
